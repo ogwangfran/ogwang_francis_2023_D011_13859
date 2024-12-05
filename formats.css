@@ -1,0 +1,50 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  main {
+    padding: 20px;
+  }
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  .carousel img {
+    height: 300px; 
+    object-fit: cover;
+  }
+  
+  .carousel img{
+    border-radius: 0.5rem;
+  }
